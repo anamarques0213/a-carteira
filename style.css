@@ -1,0 +1,180 @@
+body {
+    background-color: #fbe6dc;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f4c68e;
+    padding: 16px;
+
+
+}
+
+.cabecalho strong {
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    font-family: "Yeseva One", serif;
+    text-shadow: 2px 2px rgb(154, 152, 152);
+    display: flex;
+    text-align: center;
+
+
+
+
+}
+
+.nav {
+    background-color: #000000;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.nav .active {
+    color: rgb(163, 19, 0);
+
+}
+
+.nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 16px;
+    transition: color 0.5s ease-in;
+    font-size: 20px;
+    font-family: "Lobster", sans-serif;
+    align-items: center;
+
+
+
+
+}
+
+.nav a:hover {
+    color: rgb(150, 26, 34);
+}
+
+.livro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px;
+
+}
+
+.resumo p {
+    width: 320px;
+    background-color: #F4C68E;
+    padding: 50px;
+    font-family: "DM Sans", sans-serif;
+
+
+
+}
+
+.livro img {
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.conto {}
+
+header img {
+    width: 140px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F4C68E;
+    width: 100%;
+}
+
+.rodape {
+    background-color: #F4C68E;
+}
+
+.logoAutor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoAutor img {
+    width: 140px;
+    margin-left: 70px;
+
+}
+
+.logoAutor h4 {
+    font-size: 30px;
+    margin-left: -270px;
+    color: #212121;
+    font-weight: 100;
+    font-family: Extra;
+
+}
+
+.frase2024 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frase2024 h2 {
+    color: #212121;
+    font-weight: 100;
+}
+
+
+.frase2024 a {
+    color: #212121;
+    font-weight: 100;
+}
+
+.insta img {
+    width: 45px;
+    border-radius: 30px;
+    background-color: #FF9029;
+    margin-left: -220px;
+}
+
+.face img {
+    width: 50px;
+    border-radius: 700px;
+    background-color: #FF9029;
+    margin-left: -400px;
+}
+
+.acarteira strong {
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    font-family: "Yeseva One", serif;
+    text-shadow: 2px 2px rgb(154, 152, 152);
+
+
+}
+
+
+
+
+@media (max-width: 580px) {
+    .nav {
+        flex-direction: column;
+    }
+}
+@media (max-width: 950px) {
+.frase2024{
+    font-size: 10px;
+}
+}
